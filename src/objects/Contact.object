@@ -54,7 +54,7 @@
         <deprecated>false</deprecated>
         <description>Formula: Clone of the Household Mailing address (also a Formula)</description>
         <externalId>false</externalId>
-        <formula>IF(npe01__Organization_Type__c == &apos;Household Account&apos;,
+        <formula>IF(Organization_Type__c == &apos;Household Account&apos;,
 
 Account.BillingStreet &amp; BR() &amp;
 Account.BillingCity &amp; IF(LEN(Account.BillingCity) &gt; 0, &quot;, &quot;, &quot;&quot;) &amp; Account.BillingState &amp; &quot; &quot; &amp; Account.BillingPostalCode 
@@ -73,7 +73,7 @@ Household__r.Formula_MailingAddress__c)</formula>
         <deprecated>false</deprecated>
         <description>Formula: Simple formula of Household Phone field.</description>
         <externalId>false</externalId>
-        <formula>IF(npe01__Organization_Type__c == &apos;Household Account&apos;, 
+        <formula>IF(Organization_Type__c == &apos;Household Account&apos;, 
 Account.HouseholdPhone__c,
 Household__r.HouseholdPhone__c)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -128,7 +128,7 @@ Household__r.HouseholdPhone__c)</formula>
         <deprecated>false</deprecated>
         <description>Formula: Last Close Date field of the related Household.</description>
         <externalId>false</externalId>
-        <formula>IF(npe01__Organization_Type__c == &apos;Household Account&apos;, 
+        <formula>IF(Organization_Type__c == &apos;Household Account&apos;, 
 Account.LastCloseDate__c,
 Household__r.LastCloseDate__c)</formula>
         <label>Last Household Gift Date</label>
@@ -322,7 +322,7 @@ Household__r.LastCloseDate__c)</formula>
         <deprecated>false</deprecated>
         <description>Formula:  Total Gifts Last Year on related Household.</description>
         <externalId>false</externalId>
-        <formula>IF(npe01__Organization_Type__c == &apos;Household Account&apos;, 
+        <formula>IF(Organization_Type__c == &apos;Household Account&apos;, 
 Account.OppAmountLastYear__c,
 Household__r.OppAmountLastYear__c)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -352,7 +352,7 @@ Household__r.OppAmountLastYear__c)</formula>
         <deprecated>false</deprecated>
         <description>Formula:  Total Gifts This Year on related Household.</description>
         <externalId>false</externalId>
-        <formula>IF(npe01__Organization_Type__c == &apos;Household Account&apos;, 
+        <formula>IF(Organization_Type__c == &apos;Household Account&apos;, 
 Account.OppAmountThisYear__c,
 Household__r.OppAmountThisYear__c)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -556,7 +556,7 @@ Household__r.OppAmountThisYear__c)</formula>
         <deprecated>false</deprecated>
         <description>Formula:  Total Gifts on related Household.</description>
         <externalId>false</externalId>
-        <formula>IF(npe01__Organization_Type__c == &apos;Household Account&apos;, 
+        <formula>IF(Organization_Type__c == &apos;Household Account&apos;, 
 Account.TotalOppAmount__c,
 Household__r.TotalOppAmount__c)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
