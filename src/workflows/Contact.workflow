@@ -5,9 +5,9 @@
         <description>FOR USE WITH HOUSEHOLDS. Populates the standard Phone field displayed on activities based on the Preferred Phone field value.</description>
         <field>Phone</field>
         <formula>CASE( 
-npe01__PreferredPhone__c , 
+PreferredPhone__c , 
 &quot;Work&quot;, 
-npe01__WorkPhone__c , 
+WorkPhone__c , 
 &quot;Household&quot;,
  Formula_HouseholdPhone__c ,
 &quot;Home&quot;, 
@@ -18,7 +18,7 @@ HomePhone,
 MobilePhone, 
 &quot;Other&quot;, 
 OtherPhone, 
-If(LEN( npe01__WorkPhone__c )&gt;0 , npe01__WorkPhone__c , 
+If(LEN( WorkPhone__c )&gt;0 , WorkPhone__c , 
 if(LEN( HomePhone)&gt;0, HomePhone, 
 if(LEN( MobilePhone)&gt;0, MobilePhone, 
 OtherPhone 
