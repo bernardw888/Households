@@ -354,87 +354,87 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__AlternateEmail__c</field>
+            <field>AlternateEmail__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__HomeEmail__c</field>
+            <field>HomeEmail__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Home_Address__c</field>
+            <field>Home_Address__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Last_Donation_Date__c</field>
+            <field>Last_Donation_Date__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Lifetime_Giving_History_Amount__c</field>
+            <field>Lifetime_Giving_History_Amount__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Organization_Type__c</field>
+            <field>Organization_Type__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Other_Address__c</field>
+            <field>Other_Address__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__PreferredPhone__c</field>
+            <field>PreferredPhone__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Preferred_Email__c</field>
+            <field>Preferred_Email__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Primary_Address_Type__c</field>
+            <field>Primary_Address_Type__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Private__c</field>
+            <field>Private__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Secondary_Address_Type__c</field>
+            <field>Secondary_Address_Type__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__SystemAccountProcessor__c</field>
+            <field>SystemAccountProcessor__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__SystemIsIndividual__c</field>
+            <field>SystemIsIndividual__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__WorkEmail__c</field>
+            <field>WorkEmail__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__WorkPhone__c</field>
+            <field>WorkPhone__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>npe01__Work_Address__c</field>
+            <field>Work_Address__c</field>
             <table>Household__c.Contacts__r</table>
         </columns>
         <masterLabel>Household Members</masterLabel>
